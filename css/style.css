@@ -1,0 +1,202 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	font: 18px/30px Sans-serif; color: #fff;
+  font-family: source-sans-pro, sans-serif;
+}
+
+
+
+section {
+	overflow-x: hidden; height: 993px;
+}
+
+#intro { 
+	background: #c3c2c1 url(../img/top.png) left no-repeat; 
+  background-size: cover;
+}
+
+	#intro h1 {
+		width: 858px; height: 161px;
+		/*background: url(img/intro-title.png); text-indent: -9999px;*/
+		position: relative; top: 145px; left: 0;
+	}
+
+	#intro p {
+		position: relative; top: 200px; left: 350px;
+		width: 508px; margin: 0 0 30px 0;
+	}
+	#intro p:nth-child(2) {
+		font-weight: bold;
+	}
+	
+	
+#python {
+	background: #603e2d url(../img/python1.png);
+	position: relative; 
+}
+
+	#python h2 {
+		width: 432px; height: 310px;
+		background: url(/img/spoon-title.png); text-indent: -9999px;
+		position: relative; top: 87px; left: 90px;
+	}
+	
+	#python-photo {
+		position: absolute; top: 70px; left: 526px;
+	}
+	
+	#python p {
+		position: relative; top: 130px; left: 93px;
+		width: 722px; margin: 0 0 30px 0;
+	}
+	
+		#python a {
+			color: #e29671; text-decoration: none; font-weight: bold; font-size: 26px;
+		}
+	
+	#python.btn a {
+		display: block; width: 443px; height: 164px;
+		background: url(/img/spoon-link.png);
+		padding: 134px 0 0 181px;
+	}
+	
+	
+#projects {
+	background: #8eb1df url(../img/tweed.png);
+	position: relative;
+}
+
+	#line25 h2 {
+		width: 729px; height: 228px;
+		background: url(/img/line25-title.png); text-indent: -9999px;
+		position: relative; top: 87px; left: 90px;
+	}
+	
+	#line25-photo {
+		position: absolute; left: 410px; top: 350px; 
+		transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+	}
+	
+	#line25 p {
+		position: relative; top: 145px; left: 90px;
+		width: 300px;
+	}
+	
+	#line25 .btn a {
+		display: block; width: 740px; height: 119px;
+		background: url(img/line25-link.png); text-indent: -9999px;
+		position: relative; top: 60px;
+	}
+	
+	
+#gaming {
+	background: #28323c url(img/gaming-bg.jpg);
+	background-size: cover; 
+}
+
+	#gaming h2 {
+		width: 740px; height: 324px;
+		background: url(img/gaming-title.png); text-indent: -9999px;
+		position: relative; top: 87px; left: 90px;
+	}
+	
+	#gaming p {
+		position: relative; top: 110px; left: 100px;
+	}
+	
+	#gaming .btn a {
+		display: block; width: 728px; height: 176px;
+		background: url(img/gaming-link.png); text-indent: -9999px;
+		position: relative; top: 70px;
+	}
+	
+	
+#cs {
+	background: #2d4555 url(img/cs-bg.jpg);
+	position: relative;
+}
+
+	#cs h2 {
+		width: 585px; height: 330px;
+		background: url(img/cs-title.png); text-indent: -9999px;
+		position: relative; top: 90px; left: 155px;
+	}
+	
+	#cs p {
+		position: relative; top: 120px; left: 90px;
+		width: 720px;
+	}
+	
+	#cs ul li {
+		float: left; box-shadow: 0 0 20px rgba(0,0,0,0.5); line-height: 0;
+		position: absolute; list-style: none;
+	}
+		#cs ul li:nth-child(1) {
+			top: 640px; left: 100px;
+			transform: rotate(10deg);
+			-moz-transform: rotate(10deg);
+			-webkit-transform: rotate(10deg);
+			z-index: 1;
+		}
+		#cs ul li:nth-child(2) {
+			top: 600px; left: 420px;
+			transform: rotate(-5deg);
+			-moz-transform: rotate(-5deg);
+			-webkit-transform: rotate(-5deg);
+			z-index: 3;
+		}
+		#cs ul li:nth-child(3) {
+			top: 680px; left: 570px;
+			transform: rotate(-2deg);
+			-moz-transform: rotate(-2deg);
+			-webkit-transform: rotate(-2deg);
+			z-index: 2;
+		}
+		#cs ul li:nth-child(4) {
+			top: 640px; left: 760px;
+			transform: rotate(7deg);
+			-moz-transform: rotate(7deg);
+			-webkit-transform: rotate(7deg);
+			z-index: 1;
+		}
+		#cs ul li:nth-child(5) {
+			top: 630px; left: 940px;
+			transform: rotate(-7deg);
+			-moz-transform: rotate(-7deg);
+			-webkit-transform: rotate(-7deg);
+			z-index: 2;
+		}
+		#cs ul li:nth-child(6) {
+			top: 678px; left: 1230px;
+			transform: rotate(-2deg);
+			-moz-transform: rotate(-2deg);
+			-webkit-transform: rotate(-2deg);
+			z-index: 1;
+		}
+		
+		
+#jake {
+	background: #f0a588 url(img/jake-bg.jpg);
+	background-size: cover;
+}		
+
+	#jake h2 {
+		width: 728px; height: 431px;
+		background: url(img/jake-title.png); text-indent: -9999px;
+		position: relative; top: 87px; left: 90px;
+	}
+	
+	#jake p {
+		position: relative; top: 130px; left: 90px;
+		width: 500px;
+	}
+		#jake a {
+			color: #f0a588; text-decoration: none;
+		}
+			#jake a:hover {
+				color: #d18f77;
+			}
