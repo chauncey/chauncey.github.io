@@ -35,10 +35,23 @@ h1 {
   top: 150px; 
   width: 100%; 
 }
- 
+
+#info h1, #intro h4 {
+  height: 261px;
+  /*background-color:rgba(60,118,15,0.3);*/
+  background-color:rgba(0,0,0,0.3);
+}
+
+#info h1 {
+  padding: 60px;
+  font-size: 3em;
+  left: 0;
+  top: 145px;
+  position: relative;
+}
+
 #stuff { 
-  background: url(/img/tweed.png) 50% 0 repeat fixed; min-height: 1000px; 
-  height: 1000px; 
+  background: url(/img/tweed.png) 50% 0 repeat fixed; min-height: 500px; 
   margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
@@ -48,16 +61,22 @@ h1 {
 }
  
 #stuff article { 
-  height: 458px; 
   position: absolute; 
   text-align: center; 
   top: 150px; 
   width: 100%; 
 }
 
+#stuff h1 {
+  font-size: 3em;
+  background-color:rgba(0,0,0,0.1);
+  color: #5CBD4C;
+  padding: 1em 0 1em 0;
+  margin-bottom: 1em;
+}
+
 #projects { 
-  background: url(/img/python1.png) 50% 0 repeat fixed; min-height: 1000px; 
-  height: 1000px; 
+  background: url(/img/python1.png) 50% 0 repeat fixed; min-height: 800px; 
   margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
@@ -66,12 +85,17 @@ h1 {
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
  
-#project article { 
-  height: 458px; 
+#projects article { 
   position: absolute; 
   text-align: center; 
   top: 150px; 
   width: 100%; 
 }
 
-
+#projects h1 {
+  font-size: 3em;
+  background-color:rgba(0,0,0,0.1);
+  color: #1F6610;
+  padding: 1em 0 1em 0;
+  margin-bottom: 1em;
+}
