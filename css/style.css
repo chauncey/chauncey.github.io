@@ -18,76 +18,60 @@ h1 {
   h1 {}
 }
 
-section {
-	overflow-x: hidden; height: 993px;
-}
-
-#intro { 
-	background: #c3c2c1 url(../img/top.png) left no-repeat; 
+#info { 
+  background: url(/img/top.png) 50% 0 fixed; min-height: 1000px; 
   background-size: cover;
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
 }
-	
-#intro h1, #intro h4 {
-  height: 261px;
-  background-color:rgba(60,118,15,0.2);
+ 
+#info article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
 }
-
-#intro h1 {
-  padding: 60px;
-  font-size: 3em;
-  left: 0;
-  top: 145px;
-  position: relative;
+ 
+#stuff { 
+  background: url(/img/tweed.png) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
-
-#intro h4 {
-  top: 145px;
-  position: absolute;
-  font-size: 2em;
-  left: 0;
-  width: 100%;
-  padding: 120px 60px 0px 60px;
-}
-	
-#stuff{
-	background: url(../img/tweed.png);
-	position: relative;
-  font-size: 1.5em;
-}
-
-#stuff h1 {
-  position: relative;
-  top: 87px;
-  left: 90px;
-  padding: 60px;
-}
-#stuff ul {
-  left: 90px;
-  padding: 60px;
-  position: relative;
-  top: 27px;
-}
-#stuff p {
-  font-size: 0.5em;
-}
-	
-#projects {
-	background: #8eb1df url(../img/python1.png);
-	position: relative;
-  color: #000;
-  padding: 60px;
+ 
+#stuff article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
 }
 
-#projects h2 {
-  height: 228px;
-  position: relative;
-  top: 87px;
-  left: 90px;
+#projects { 
+  background: url(/img/python1.png) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+ 
+#project article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
 }
 
-#projects p {
-  position: relative; top: 145px; left: 90px;
-  width: 300px;
-  font-size: 0.5em;
-}
 
