@@ -10,59 +10,79 @@
     <title>Chris Chauncey</title>
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8">
     <script src="//use.edgefonts.net/source-sans-pro:n4.js"></script> 
+    <link href="bs/css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="bs/js/bootstrap.min.js"></script>
+    <!-- <script src="js/scripts.js"></script> -->
 
   </head>
 
   <body>
     <section id="info" data-speed="10" data-type="background">
       <article>
-          <h1>Chris Chauncey's Adventure</h1>
-          <h4>coding, design, debugging, problem solving</h4>
+        <h1>Chris Chauncey's Adventure</h1>
+        <h4>coding, design, debugging, problem solving</h4>
       </article>
     </section>
     <section id="stuff">
       <article>
-        <h1>Stuff I like and use</h1>
-        <ul>
-          <li>
-            Python
-            <p>
-              Python enables quick prototyping with a ton a useful modules in the standard library. It's a powerful language with an easy to read syntax. 
-            </p>
-          </li>
-          <li>
-            Cyclone
-            <p>
-              Built on Python's Twisted library to work like Tornado web server. I like that it's built on Twisted so that deep down you have a huge arsenal of goodies to use.
-            </p>
-          </li>
-          <li>
-            Flask
-            <p>
-              Python framework with all the MVC goodies without imposing a set structure. I find this a well though out framework that gives you the structure to build quickly without getting in your way.
-            </p>
-          </li>
-          <li>
-            Nodejs
-            <p>
-              Fast growing ecosystem with a language that's suited for frontend or backend development.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1>Stuff I like and use</h1>
+            </div>
+            <div class="col-lg-3">
+              <h2>Python</h2>
+              <p>
+                Python enables quick prototyping with a ton a useful modules in the standard library. It's a powerful language with an easy to read syntax. 
+              </p>
+            </div>
+            <div class="col-lg-3">
+              <h2>Cyclone</h2>
+              <p>
+                Built on Python's Twisted library to work like Tornado web server. I like that it's built on Twisted so that deep down you have a huge arsenal of goodies to use.
+              </p>
+            </div>
+            <div class="col-lg-3">
+              <h2>Flask</h2>
+              <p>
+                Python framework with all the MVC goodies without imposing a set structure. I find this a well though out framework that gives you the structure to build quickly without getting in your way.
+              </p>
+            </div>
+            <div class="col-lg-3">
+              <h2>Nodejs</h2>
+              <p>
+                Fast growing ecosystem with a language that's suited for frontend or backend development.
+              </p>
+            </div>
+          </div>
+        </div>
       </article>
     </section>
     <section id="projects">
       <article>
-        <h1>Projects</h1>
-        <h4>Designed, implemented and maintained <small>a Linux server for PDF document generation using ReportLab, wkhtmltopdf, and Cyclone web server.</small></h4>
-        <h4>Developed <small>a mobile site including payment processing and form generation</small></h4>
-        <h4>Extended mobile site <small>into mobile apps for the iOS and Android platforms including setting up the store accounts, creating virtual machines for testing, and handling the submission process</small></h4>
-        <h4>Designed, implemented and maintained <small>an endorsement web app that interfaced heavily with a legacy backend process. The challenges in this were to pull legacy data, track it on the app side but then send it to legacy programs for rating and then for making the changes. Part of the challenge in this were to detect endorsement quotes that could not be automatically applied and push them through a separate legacy process. This was all done with a goal of compatibility with the legacy backend while keeping the web app performant during the process.
-          </small>
-        </h4>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1>Projects</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3">
+              <h4>Designed, implemented and maintained <small>a Linux server for PDF document generation using ReportLab, wkhtmltopdf, and Cyclone web server.</small></h4>
+            </div>
+            <div class="col-lg-3">
+              <h4>Developed <small>a mobile site including payment processing and form generation</small></h4>
+            </div>
+            <div class="col-lg-3">
+              <h4>Extended mobile site <small>into mobile apps for the iOS and Android platforms including setting up the store accounts, creating virtual machines for testing, and handling the submission process</small></h4>
+            </div>
+            <div class="col-lg-3">
+              <h4>Designed, implemented and maintained <small>an endorsement web app that interfaced heavily with a legacy backend process. The challenges in this were to pull legacy data, track it on the app side but then send it to legacy programs for rating and then for making the changes. Part of the challenge in this were to detect endorsement quotes that could not be automatically applied and push them through a separate legacy process. This was all done with a goal of compatibility with the legacy backend while keeping the web app performant during the process.</small></h4>
+            </div>
+          </div>
+        </div>
       </article>
     </section>
   </body>
