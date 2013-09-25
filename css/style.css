@@ -99,3 +99,11 @@ h1 {
   padding: 1em 0 1em 0;
   margin-bottom: 1em;
 }
+
+#projects h4 {
+  color: #474747;
+}
+
+#projects small {
+  color: #5e5e5e;
+}
