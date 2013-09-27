@@ -1,0 +1,68 @@
+#info { 
+  background: url(/img/top.png) 50% 0 fixed; min-height: 300px; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  padding: 0;
+}
+#heading {
+  background-color:rgba(0,0,0,0.3);
+  color: #fff;
+  top: 50px; 
+  text-align: center; 
+  position: absolute;
+  padding: 10px 0;
+}
+#heading h4 {
+  color: #d0d0d0;
+}
+#stuff { 
+  background: url(/img/tweed.png) 50% 0 repeat fixed;
+  margin: 0 auto; 
+  max-width: 100%; 
+  color: #fff;
+}
+#projects { 
+  background: url(/img/python1.png) 50% 0 repeat fixed;
+  margin: 0 auto; 
+  max-width: 100%; 
+  color: #000;
+}
+#projects small {
+  color: #5e5e5e;
+}
+#stuff h1, #projects h1 {
+  text-align: center;
+  background-color:rgba(0,0,0,0.3);
+}
+ 
+@media screen and (min-width: 720px) {
+  body { 
+    font: 112.5%;
+  }
+  #info { 
+    background: url(/img/top.png) 50% 0 fixed; min-height: 300px; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1496px; 
+    position: relative; 
+    padding: 0;
+  }
+  #heading {
+    top: 150px;
+    padding: 100px 0;
+  }
+  .container {
+    min-height: 500px;
+    padding-top: 100px;
+  }
+}

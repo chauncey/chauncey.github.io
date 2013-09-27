@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # About
 This is a Github pages theme based on Twitter Bootstrap for your Github projects
 # License
@@ -18,3 +19,7 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/gpl.html>.
+=======
+chauncey.github.io
+==================
+>>>>>>> master
