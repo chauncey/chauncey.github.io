@@ -1,109 +1,68 @@
-body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
-	margin: 0; padding: 0; border: 0;
+#info { 
+  background: url(/img/top.png) 50% 0 fixed; min-height: 300px; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  padding: 0;
 }
-
-body { 
-  font: 100%/1.5 sans-serif;
-  color: #fff; /* 16px */
+#heading {
+  background-color:rgba(0,0,0,0.3);
+  color: #fff;
+  top: 50px; 
+  text-align: center; 
+  position: absolute;
+  padding: 10px 0;
 }
-
-h1 {  
-  font-size: 2em;
+#heading h4 {
+  color: #d0d0d0;
+}
+#stuff { 
+  background: url(/img/tweed.png) 50% 0 repeat fixed;
+  margin: 0 auto; 
+  max-width: 100%; 
+  color: #fff;
+}
+#projects { 
+  background: url(/img/python1.png) 50% 0 repeat fixed;
+  margin: 0 auto; 
+  max-width: 100%; 
+  color: #000;
+}
+#projects small {
+  color: #5e5e5e;
+}
+#stuff h1, #projects h1 {
+  text-align: center;
+  background-color:rgba(0,0,0,0.3);
 }
  
-@media (min-width: 600px) {
+@media screen and (min-width: 720px) {
   body { 
     font: 112.5%;
   }
-  h1 {}
-}
-
-#info { 
-  background: url(/img/top.png) 50% 0 fixed; min-height: 1000px; 
-  background-size: cover;
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-}
- 
-#info article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
-}
-
-#info h1, #intro h4 {
-  height: 261px;
-  /*background-color:rgba(60,118,15,0.3);*/
-  background-color:rgba(0,0,0,0.3);
-}
-
-#info h1 {
-  padding: 60px;
-  font-size: 3em;
-  left: 0;
-  top: 145px;
-  position: relative;
-}
-
-#stuff { 
-  background: url(/img/tweed.png) 50% 0 repeat fixed; min-height: 500px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
-}
- 
-#stuff article { 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
-}
-
-#stuff h1 {
-  font-size: 3em;
-  background-color:rgba(0,0,0,0.1);
-  color: #5CBD4C;
-  padding: 1em 0 1em 0;
-  margin-bottom: 1em;
-}
-
-#projects { 
-  background: url(/img/python1.png) 50% 0 repeat fixed; min-height: 800px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
-}
- 
-#projects article { 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
-}
-
-#projects h1 {
-  font-size: 3em;
-  background-color:rgba(0,0,0,0.1);
-  color: #1F6610;
-  padding: 1em 0 1em 0;
-  margin-bottom: 1em;
-}
-
-#projects h4 {
-  color: #474747;
-}
-
-#projects small {
-  color: #5e5e5e;
+  #info { 
+    background: url(/img/top.png) 50% 0 fixed; min-height: 300px; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1496px; 
+    position: relative; 
+    padding: 0;
+  }
+  #heading {
+    top: 150px;
+    padding: 100px 0;
+  }
+  .container {
+    min-height: 500px;
+    padding-top: 100px;
+  }
 }
