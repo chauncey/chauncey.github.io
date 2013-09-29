@@ -29,24 +29,9 @@ header, footer, nav, aside, article, section {
   padding: 0;
   z-index:10;
 }
-#heading {
-  top: 150px;
-  padding: 100px 0;
-}
 .container {
   min-height: 500px;
-  padding-top: 100px;
-}
-#heading {
-  background-color:rgba(0,0,0,0.3);
-  color: #fff;
-  top: 50px; 
-  text-align: center; 
-  position: absolute;
-  padding: 10px 0;
-}
-#heading h4 {
-  color: #d0d0d0;
+  padding: 100px 10% 10% 10%;
 }
 #stuff { 
   background: url(/img/tweed.png) 50% 0 repeat fixed;
@@ -67,6 +52,9 @@ header, footer, nav, aside, article, section {
   text-align: center;
   background-color:rgba(0,0,0,0.3);
 }
+#heading {
+	text-indent:-99999px;
+}
  
 @media screen and (max-width: 650px) {
   body { 
@@ -85,6 +73,21 @@ header, footer, nav, aside, article, section {
     width: 100%; 
     position: relative; 
     padding: 0;
+  }
+  #heading {
+    background-color:rgba(0,0,0,0.3);
+    color: #fff;
+    top: 50px; 
+    text-align: center; 
+    position: absolute;
+    padding: 10px 0;
+  }
+  #heading h4 {
+    color: #d0d0d0;
+  }
+  #heading {
+    top: 150px;
+    padding: 100px 0;
   }
 }
     
