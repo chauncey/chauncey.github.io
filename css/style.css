@@ -1,13 +1,41 @@
+
+/* Reset */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, ol, form, small, label, cite, td, br {
+	padding:0;
+	margin:0;
+  /*
+	font-size:1.5em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:normal;
+	list-style:none;
+  */
+	border:none;
+}
+header, footer, nav, aside, article, section {
+	display:block;
+}
 #info { 
-  background: url(/img/top.png) 50% 0 fixed; min-height: 300px; 
+  background: #1b0989 url(/img/chauncey.jpg) 50% 0 repeat fixed; 
+  /*
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  margin: 0 auto; 
+  background-size: cover;*/
+  min-height: 1020px;
+  margin: 0 auto;
+  overflow:hidden;
   width: 100%; 
   position: relative; 
   padding: 0;
+  z-index:10;
+}
+#heading {
+  top: 150px;
+  padding: 100px 0;
+}
+.container {
+  min-height: 500px;
+  padding-top: 100px;
 }
 #heading {
   background-color:rgba(0,0,0,0.3);
@@ -40,29 +68,23 @@
   background-color:rgba(0,0,0,0.3);
 }
  
-@media screen and (min-width: 720px) {
+@media screen and (max-width: 650px) {
   body { 
     font: 112.5%;
   }
   #info { 
-    background: url(/img/top.png) 50% 0 fixed; min-height: 300px; 
+    /*background: url(/img/top.png) 50% 0 fixed; min-height: 300px; */
+    /*background: url(/img/chauncey_mobile.jpg) 50% 0 fixed; min-height: 300px; */
+    background:#011309 url("/img/chauncey_mobile.jpg") repeat fixed center top !important;
+    min-height: 457px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 1000px;
     margin: 0 auto; 
     width: 100%; 
-    max-width: 1496px; 
     position: relative; 
     padding: 0;
   }
-  #heading {
-    top: 150px;
-    padding: 100px 0;
-  }
-  .container {
-    min-height: 500px;
-    padding-top: 100px;
-  }
 }
+    
