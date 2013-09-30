@@ -55,7 +55,13 @@ header, footer, nav, aside, article, section {
 #heading {
 	text-indent:-99999px;
 }
- 
+.rowspacing {
+  margin-bottom: 20px;
+}
+h1 {
+  padding: 1em;
+}
+
 @media screen and (max-width: 650px) {
   body { 
     font: 112.5%;
